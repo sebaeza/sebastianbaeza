@@ -5,7 +5,7 @@ description: Spatial analysis of technological innovation patterns in Japan usin
 img: assets/img/projects_img/1_concentration_coloc/thumbnail.png
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/sebaeza/Concentration-colocalization-Japan
 ---
 

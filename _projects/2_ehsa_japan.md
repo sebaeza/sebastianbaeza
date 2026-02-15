@@ -5,7 +5,7 @@ description: Tracing cluster life cycles in Japanese innovation using spatiotemp
 img: assets/img/projects_img/2_ehsa_japan/thumbnail.png
 importance: 2
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/sebaeza/EHSA_Japan
 ---
 
