@@ -93,7 +93,7 @@ ninja.data = [{
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/Sebastian-Baeza-Gonzalez/", "_blank");
+          window.open("https://www.researchgate.net/profile/{"value"=>"Sebastian-Baeza-Gonzalez", "logo"=>"ai ai-researchgate"}/", "_blank");
         },
       },{
       id: 'light-theme',
