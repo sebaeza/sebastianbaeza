@@ -2,7 +2,7 @@
 layout: page
 title: Emerging Hot Spot Analysis
 description: Tracing cluster life cycles in Japanese innovation using spatiotemporal statistics
-img: assets/img/ehsa_japan.jpg
+img: assets/img/projects_img/2_ehsa_japan/thumbnail.png
 importance: 2
 category: research
 related_publications: true
@@ -10,15 +10,6 @@ github: https://github.com/sebaeza/EHSA_Japan
 ---
 
 This project presents a methodological framework using **Emerging Hot Spot Analysis (EHSA)** to trace the life cycles of innovation clusters in Japan. By combining spatial clustering detection with temporal trend analysis, we identify where and when inventive activity emerges, intensifies, persists, or declines.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ehsa_lifecycle.jpg" title="Cluster Life Cycle Model" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Conceptual model linking EHSA patterns to cluster life cycle stages: emergence, growth, maturity, and decline.
-</div>
 
 ## Research Overview
 

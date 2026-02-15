@@ -2,7 +2,7 @@
 layout: page
 title: Concentration & Co-localization
 description: Spatial analysis of technological innovation patterns in Japan using patent data
-img: assets/img/concentration_japan.jpg
+img: assets/img/projects_img/1_concentration_coloc/thumbnail.png
 importance: 1
 category: research
 related_publications: true
@@ -10,15 +10,6 @@ github: https://github.com/sebaeza/Concentration-colocalization-Japan
 ---
 
 This project examines the spatial patterns of inventive activity in Japan, analyzing how technological innovation concentrates and co-localizes across different fields. Using patent data from the Japan Patent Office (1975-2014), we reveal how Japan's innovation geography shifted from a highly integrated system to more specialized, isolated clusters.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/japan_patents_map.jpg" title="Distribution of patents in Japan" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Point distribution of inventors across Japan for two periods: 1975-1994 and 1995-2014.
-</div>
 
 ## Research Overview
 
