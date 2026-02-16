@@ -458,6 +458,21 @@ nav[data-toggle="toc"] {
   width: 100%;
 }
 
+// Fix Leaflet tiles broken by Bootstrap/MDB img rules
+.leaflet-container img {
+  max-width: none !important;
+  max-height: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.leaflet-container .leaflet-tile {
+  transition: none !important;
+}
+
 swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
