@@ -10,54 +10,20 @@ map: true
 
 Over the years, I have presented my research at conferences across the globe — from Santiago to Tokyo, London to Honolulu. This map shows the locations of my academic presentations.
 
-<style>
-  /* Override Bootstrap/MDB global img styles that break Leaflet tiles */
-  .leaflet-container img {
-    max-width: none !important;
-    max-height: none !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    width: auto !important;
-    height: auto !important;
-  }
-  .leaflet-tile {
-    filter: none !important;
-    visibility: visible !important;
-  }
-  .leaflet-fade-anim .leaflet-tile {
-    will-change: opacity;
-  }
-  .leaflet-container {
-    background: #ddd;
-  }
-</style>
-
-<div id="conference-map" style="height: 500px; width: 100%; border-radius: 8px; z-index: 0; position: relative;"></div>
+<div id="conference-map" style="height: 500px;"></div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var mapEl = document.getElementById('conference-map');
-  if (!mapEl || typeof L === 'undefined') return;
+  if (typeof L === 'undefined') return;
 
-  var map = L.map(mapEl, {
-    scrollWheelZoom: false,
-    zoomControl: true
-  }).setView([20, 0], 2);
+  var map = L.map('conference-map', { scrollWheelZoom: false }).setView([20, 0], 2);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 18,
-    detectRetina: true
+    maxZoom: 18
   }).addTo(map);
 
-  // Force a size recalculation after tiles load
-  map.whenReady(function () {
-    setTimeout(function () {
-      map.invalidateSize();
-    }, 300);
-  });
+  setTimeout(function () { map.invalidateSize(); }, 300);
 
   var conferences = [
     { name: "GeoInno 2026", city: "Budapest, Hungary", lat: 47.4979, lng: 19.0402, year: 2026,
@@ -112,22 +78,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   conferences.forEach(function (conf) {
     L.circleMarker([conf.lat, conf.lng], {
-      radius: 8,
-      fillColor: getColor(conf.year),
-      color: "#fff",
-      weight: 2,
-      opacity: 1,
-      fillOpacity: 0.85
+      radius: 8, fillColor: getColor(conf.year), color: "#fff",
+      weight: 2, opacity: 1, fillOpacity: 0.85
     }).addTo(map).bindPopup(
       "<strong>" + conf.name + "</strong><br>" +
-      "<em>" + conf.city + " (" + conf.year + ")</em><br><br>" +
-      conf.title
+      "<em>" + conf.city + " (" + conf.year + ")</em><br><br>" + conf.title
     );
   });
 
   var legend = L.control({ position: "bottomright" });
   legend.onAdd = function () {
-    var div = L.DomUtil.create("div", "legend");
+    var div = L.DomUtil.create("div");
     div.style.cssText = "background:white;padding:10px 14px;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.3);line-height:1.8;font-size:13px;";
     div.innerHTML =
       "<strong>Period</strong><br>" +

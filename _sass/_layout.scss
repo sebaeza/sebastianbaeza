@@ -56,3 +56,24 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// Leaflet map fix - override Bootstrap/MDB global img styles
+.leaflet-container {
+  img {
+    max-width: none !important;
+    max-height: none !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    transition: none !important;
+  }
+
+  .leaflet-tile {
+    filter: inherit;
+    visibility: inherit;
+  }
+}
