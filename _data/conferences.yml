@@ -1,118 +1,167 @@
-- title: "Global Conference on Economic Geography"
-  location: "Worcester, USA"
-  year: 2025
-  paper: "Does the periphery matter across technological trajectories?"
-  latitude: 42.2626
-  longitude: -71.8023
-
-- title: "Japan Association of Economic Geographers"
-  location: "Tokyo, Japan"
-  year: 2025
-  paper: "Technological trajectories in core and periphery settings"
-  latitude: 35.6895
-  longitude: 139.6917
-
-- title: "Association of American Geographers (AAG)"
-  location: "Honolulu, USA"
-  year: 2024
-  paper: "Unequal geographies of technological change in Chilean salmon farming"
-  latitude: 21.3069
-  longitude: -157.8583
-
-- title: "Chilean Society of Regional Studies (SOCHER)"
-  location: "Antofagasta, Chile"
-  year: 2022
-  paper: "Putting the State back in: Neostructural innovation in the Chilean salmon industry"
-  latitude: -23.6509
-  longitude: -70.3975
-
-- title: "DIGRA International Conference"
-  location: "Kyoto, Japan"
-  year: 2019
-  paper: "Video Games Production in the periphery: the Chilean case"
-  latitude: 35.0116
-  longitude: 135.7681
-
-- title: "Association of American Geographers (AAG)"
-  location: "Washington DC, USA"
-  year: 2019
-  paper: "Affective Labour and the business of making games"
-  latitude: 38.9072
-  longitude: -77.0369
-
-- title: "Global Conference on Economic Geography"
-  location: "Cologne, Germany"
-  year: 2018
-  paper: "Playing with the south: dependency in the video games software development"
-  latitude: 50.9375
-  longitude: 6.9603
-
-- title: "Geography of Innovation Conference"
+- title: "The Geography of Innovation Conference (GEOINNO)"
+  year: 2026
   location: "Budapest, Hungary"
-  year: 2017
-  paper: "Gaming with the south? Cultural economy and global production networks"
   latitude: 47.4979
   longitude: 19.0402
+  role: "Main author"
+  presentation: "Unveiling the network core and periphery structures of technological development in salmon aquaculture"
+
+- title: "Global Conference on Economic Geography (GCEG)"
+  year: 2025
+  location: "Worcester, USA"
+  latitude: 42.2626
+  longitude: -71.8023
+  role: "Main author"
+  presentation: "Does the periphery matter across technological trajectories? Examining different technologies in the Japanese case."
+
+- title: "Global Conference on Economic Geography (GCEG)"
+  year: 2025
+  location: "Worcester, USA"
+  latitude: 42.2626
+  longitude: -71.8023
+  role: "Main author"
+  presentation: "Engaged pluralism with diversity for the future of economic geography. Panel - Economic Geography at 100: Imagining EG futures, the next century."
+
+- title: "Japan Association of Economic Geographers Annual Conference"
+  year: 2025
+  location: "Nagoya, Japan"
+  latitude: 35.1815
+  longitude: 136.9066
+  role: "Main author"
+  presentation: "Technological trajectories in core and periphery settings: comparing knowledge bases."
+
+- title: "Association of American Geographers (AAG) – Annual Meeting"
+  year: 2024
+  location: "Honolulu, USA"
+  latitude: 21.3069
+  longitude: -157.8583
+  role: "Main author"
+  presentation: "Unequal geographies of technological change: the structural and relational dimensions of specialization in Chilean salmon farming."
+
+- title: "Chilean Society of Regional Studies (SOCHER)"
+  year: 2022
+  location: "Antofagasta, Chile"
+  latitude: -23.6509
+  longitude: -70.3975
+  role: "Co-author"
+  presentation: "Putting the State back in: Neostructural innovation in the Chilean salmon industry."
+
+- title: "Digital Games Research Association Conference (DiGRA)"
+  year: 2019
+  location: "Kyoto, Japan"
+  latitude: 35.0116
+  longitude: 135.7681
+  role: "Main author"
+  presentation: "Video Games Production in the periphery: the Chilean case."
+
+- title: "Association of American Geographers (AAG) – Annual Meeting"
+  year: 2019
+  location: "Washington DC, USA"
+  latitude: 38.9072
+  longitude: -77.0369
+  role: "Main author"
+  presentation: "Affective Labour and the business of making games: video games development in the periphery."
+
+- title: "Global Conference on Economic Geography (GCEG)"
+  year: 2018
+  location: "Cologne, Germany"
+  latitude: 50.9375
+  longitude: 6.9603
+  role: "Main author"
+  presentation: "Playing with the south: dependency in the video games software development in Chile."
 
 - title: "RGS-IBG Annual International Conference"
-  location: "London, UK"
   year: 2017
-  paper: "Conference Participation"
+  location: "London, UK"
   latitude: 51.5074
   longitude: -0.1278
+  role: "Main author"
+  presentation: "Gaming with the south? Cultural economy and the global production networks of videogames in Chile."
 
-- title: "XXXVI National Congress of Geography"
-  location: "Santiago, Chile"
+- title: "XXXVI National Congress and XXI International Congress of Geography"
   year: 2015
-  paper: "The forestry complex in Araucania region"
+  location: "Santiago, Chile"
   latitude: -33.4489
   longitude: -70.6693
+  role: "Main author"
+  presentation: "The forestry complex in Araucania region and its relation with the urban economy – a lecture on sustainable development."
 
-- title: "Chile-Japan Academic Forum"
-  location: "Tokyo, Japan"
+- title: "Chile-Japan Academic Forum at The University of Tokyo"
   year: 2014
-  paper: "The impact of woodchips / Urban and regional challenges of mining"
-  latitude: 35.6895
-  longitude: 139.6917
+  location: "Tokyo, Japan"
+  latitude: 35.6762
+  longitude: 139.6503
+  role: "Main author"
+  presentation: "The impact of woodchips: corporate territories and the benefits of trade between Chile and Japan in the forestry sector."
+
+- title: "Chile-Japan Academic Forum at The University of Tokyo"
+  year: 2014
+  location: "Tokyo, Japan"
+  latitude: 35.6762
+  longitude: 139.6503
+  role: "Main author"
+  presentation: "The urban and regional challenges of mining in the world´s driest desert: the Antofagasta case."
 
 - title: "50 National Congress of Japanese Society of Latin America Social Science"
+  year: 2013
   location: "Tokyo, Japan"
-  year: 2013
-  paper: "The Chilean wood, paper, and pulp industry"
-  latitude: 35.6895
-  longitude: 139.6917
+  latitude: 35.6762
+  longitude: 139.6503
+  role: "Main author"
+  presentation: "The Chilean wood, paper, and pulp industry – structures and linkages to Japan and global markets."
 
-- title: "XXXIV National Congress of Geography"
-  location: "Chillán, Chile"
+- title: "XXXIV National Congress and XIX International Congress of Geography"
   year: 2013
-  paper: "Dynamics and structure of Chile-Japan pulp and paper production"
-  latitude: -36.6063
-  longitude: -72.1023
+  location: "Chillán, Chile"
+  latitude: -36.6068
+  longitude: -72.1026
+  role: "Main author"
+  presentation: "The effect of foreign trade with China PR in the domestic employment of Chilean regions. Analysis 1990-2010 and scenarios."
+
+- title: "XXXIV National Congress and XIX International Congress of Geography"
+  year: 2013
+  location: "Chillán, Chile"
+  latitude: -36.6068
+  longitude: -72.1026
+  role: "Main author"
+  presentation: "Dynamics and structure of Chile-Japan pulp and paper production: A regional approach."
 
 - title: "Colloquium in Governance of Risks and Resources"
-  location: "Santiago, Chile"
   year: 2013
-  paper: "The impact of woodchips: unequal trade relationship with Japan"
+  location: "Santiago, Chile"
   latitude: -33.4489
   longitude: -70.6693
+  role: "Main author"
+  presentation: "The impact of woodchips: unequal trade relationship with Japan in Southern Chile."
 
-- title: "Association of American Geographers (AAG)"
-  location: "Los Angeles, USA"
+- title: "Association of American Geographers (AAG) – Annual Meeting"
   year: 2013
-  paper: "Resource-based economies and booming Asia"
+  location: "Los Angeles, USA"
   latitude: 34.0522
   longitude: -118.2437
+  role: "Second author"
+  presentation: "Resource-based economies and booming Asia: regional impacts in export-driven Chile."
 
-- title: "XXXIII National Congress of Geography"
-  location: "Arica, Chile"
+- title: "XXXIII National Congress and XVIII International Congress of Geography"
   year: 2012
-  paper: "The two sides of the copper coin"
+  location: "Arica, Chile"
   latitude: -18.4783
   longitude: -70.3126
+  role: "Main author"
+  presentation: "The two sides of the copper coin: Dynamics and specialization exports of Chilean regions."
 
 - title: "XI Geography Students Meeting"
-  location: "Santiago, Chile"
   year: 2011
-  paper: "Analysis of health vulnerability in Manila"
+  location: "Santiago, Chile"
   latitude: -33.4489
   longitude: -70.6693
+  role: "Main author"
+  presentation: "Analysis of health vulnerability in Manila, Philippines and its relation to pollution levels in the river Pasig"
+
+- title: "II Asian and African Studies Meeting"
+  year: 2011
+  location: "Santiago, Chile"
+  latitude: -33.4489
+  longitude: -70.6693
+  role: "Main author"
+  presentation: "Water pollution and health vulnerability in Manila, Philippines; Challenges studying metropolitan areas in Asia."
