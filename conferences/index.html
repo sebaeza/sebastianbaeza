@@ -1,27 +1,17 @@
 <!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="google-site-verification" content=""> <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> conferences | Sebastián Baeza-González </title> <meta name="author" content="Sebastián Baeza-González"> <meta name="description" content="An interactive map of my conference presentations worldwide"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/gis.png?v=89e0f45a08e3ca9ea2da019cabc85b6b"> <link rel="stylesheet" href="/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://sebastianbaeza.me/conferences/"> <script src="/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" integrity="sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ=" crossorigin="anonymous"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Sebastián Baeza-González </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item active"> <a class="nav-link" href="/conferences/">conferences <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">conferences</h1> <p class="post-description">An interactive map of my conference presentations worldwide</p> </header> <article> <p>Over the years, I have presented my research at conferences across the globe — from Santiago to Tokyo, London to Honolulu. This map shows the locations of my academic presentations.</p> <style>.leaflet-container img{max-width:none!important;max-height:none!important;border-radius:0!important;box-shadow:none!important;padding:0!important;margin:0!important;width:auto!important;height:auto!important}.leaflet-tile{filter:none!important;visibility:visible!important}.leaflet-fade-anim .leaflet-tile{will-change:opacity}.leaflet-container{background:#ddd}</style> <div id="conference-map" style="height: 500px; width: 100%; border-radius: 8px; z-index: 0; position: relative;"></div> <script>
+  </script> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" integrity="sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ=" crossorigin="anonymous"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Sebastián Baeza-González </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item active"> <a class="nav-link" href="/conferences/">conferences <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">conferences</h1> <p class="post-description">An interactive map of my conference presentations worldwide</p> </header> <article> <p>Over the years, I have presented my research at conferences across the globe — from Santiago to Tokyo, London to Honolulu. This map shows the locations of my academic presentations.</p> <div id="conference-map" style="height: 500px;"></div> <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var mapEl = document.getElementById('conference-map');
-  if (!mapEl || typeof L === 'undefined') return;
+  if (typeof L === 'undefined') return;
 
-  var map = L.map(mapEl, {
-    scrollWheelZoom: false,
-    zoomControl: true
-  }).setView([20, 0], 2);
+  var map = L.map('conference-map', { scrollWheelZoom: false }).setView([20, 0], 2);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 18,
-    detectRetina: true
+    maxZoom: 18
   }).addTo(map);
 
-  // Force a size recalculation after tiles load
-  map.whenReady(function () {
-    setTimeout(function () {
-      map.invalidateSize();
-    }, 300);
-  });
+  setTimeout(function () { map.invalidateSize(); }, 300);
 
   var conferences = [
     { name: "GeoInno 2026", city: "Budapest, Hungary", lat: 47.4979, lng: 19.0402, year: 2026,
@@ -76,22 +66,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   conferences.forEach(function (conf) {
     L.circleMarker([conf.lat, conf.lng], {
-      radius: 8,
-      fillColor: getColor(conf.year),
-      color: "#fff",
-      weight: 2,
-      opacity: 1,
-      fillOpacity: 0.85
+      radius: 8, fillColor: getColor(conf.year), color: "#fff",
+      weight: 2, opacity: 1, fillOpacity: 0.85
     }).addTo(map).bindPopup(
       "<strong>" + conf.name + "</strong><br>" +
-      "<em>" + conf.city + " (" + conf.year + ")</em><br><br>" +
-      conf.title
+      "<em>" + conf.city + " (" + conf.year + ")</em><br><br>" + conf.title
     );
   });
 
   var legend = L.control({ position: "bottomright" });
   legend.onAdd = function () {
-    var div = L.DomUtil.create("div", "legend");
+    var div = L.DomUtil.create("div");
     div.style.cssText = "background:white;padding:10px 14px;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.3);line-height:1.8;font-size:13px;";
     div.innerHTML =
       "<strong>Period</strong><br>" +
