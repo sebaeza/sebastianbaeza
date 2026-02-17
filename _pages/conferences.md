@@ -19,7 +19,7 @@ nav_order: 5
     {% for conf in site.data.conferences %}
     <li>
       <strong>{{ conf.year }}</strong>: {{ conf.title }} - <em>{{ conf.location }}</em><br>
-      <span style="font-size: 0.9em; color: #666;">{{ conf.paper }}</span>
+      <span style="font-size: 0.9em; color: #666;">{{ conf.presentation }}</span>
     </li>
     {% endfor %}
   </ul>
@@ -42,6 +42,6 @@ nav_order: 5
     // Loop through _data/conferences.yml
     {% for conf in site.data.conferences %}
         L.marker([{{ conf.latitude }}, {{ conf.longitude }}]).addTo(map)
-            .bindPopup("<b>{{ conf.title }}</b> ({{ conf.year }})<br>{{ conf.location }}<br><em>{{ conf.paper }}</em>");
+            .bindPopup("<b>{{ conf.title }}</b> ({{ conf.year }})<br>{{ conf.location }}<br><em>{{ conf.presentation }}</em>");
     {% endfor %}
 </script>
