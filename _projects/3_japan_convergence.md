@@ -3,9 +3,9 @@ layout: page
 title: Policy Convergence in Japan's Aging Society
 description: Tracking lexical and conceptual policy alignment across national, regional, and local scales using computational text analysis.
 img: assets/img/projects_img/3_policy_convergence/thumbnail.png
-importance: 1
+importance: 2
 category: research
-related_publications: true
+related_publications: false
 github: https://github.com/sebaeza/japan_policy_convergence
 ---
 
