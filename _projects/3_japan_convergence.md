@@ -54,3 +54,10 @@ regional_tfidf = vectorizer.transform(regional_docs)
 similarity_matrix = cosine_similarity(regional_tfidf, central_tfidf)
 ```
 
+## Links
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    <a href="https://github.com/sebaeza/japan_policy_convergence" class="btn btn-sm z-depth-0" role="button">
+        <i class="fab fa-github"></i> GitHub Repository
+    </a>
+</div>
