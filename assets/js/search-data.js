@@ -62,6 +62,11 @@ ninja.data = [{
           description: "Tracing cluster life cycles in Japanese innovation using spatiotemporal statistics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_ehsa_japan/";
+            },},{id: "projects-policy-convergence-in-japan-39-s-aging-society",
+          title: 'Policy Convergence in Japan&amp;#39;s Aging Society',
+          description: "Tracking lexical and conceptual policy alignment across national, regional, and local scales using computational text analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_japan_convergence/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
