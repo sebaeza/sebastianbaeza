@@ -13,3 +13,6 @@ orcid_id: 0000-0002-0721-3813
 research_gate_profile:
   value: Sebastian-Baeza-Gonzalez
   logo: ai ai-researchgate
+github:
+  title: GitHub
+  url: https://github.com/sebaeza
