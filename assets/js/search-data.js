@@ -115,6 +115,13 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/{"value"=>"Sebastian-Baeza-Gonzalez", "logo"=>"ai ai-researchgate"}/", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/sebaeza", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
